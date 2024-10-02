@@ -73,12 +73,12 @@ public class User
 	public ICollection<UserRole> UserRoles { get; set; }
 	public ICollection<UserSavedPost> UserSavedPosts { get; set; }
 	public ICollection<Wallet.Wallet> Wallets { get; set; }
-	public ICollection<Story> Stories { get; set; }
+	public ICollection<Story.Story> Stories { get; set; }
 	public ICollection<StoryComment> StoryComments { get; set; }
 	public ICollection<StoryLike> StoryLikes { get; set; }
 	public ICollection<StoryVisit> StoryVisits { get; set; }
 	public ICollection<Visit> Visits { get; set; }
-	public ICollection<Post> Posts { get; set; }
+	public ICollection<Post.Post> Posts { get; set; }
 	public ICollection<PostComment> PostComments { get; set; }
 	public ICollection<PostLike> PostLikes { get; set; }
 	public ICollection<PostVisit> PostVisits { get; set; }
@@ -86,13 +86,13 @@ public class User
 	public ICollection<GroupMessage> GroupMessages { get; set; }
 	public ICollection<GroupMessageReaction> GroupMessageReactions { get; set; }
 	public ICollection<Coin.Coin> Coins { get; set; }
-	public ICollection<Chat>? SenderChats { get; set; }
-	public ICollection<Chat>? ReceiverChats { get; set; }
+	public ICollection<Chat.Chat>? SenderChats { get; set; }
+	public ICollection<Chat.Chat>? ReceiverChats { get; set; }
 	public ICollection<ChatMessage> ChatMessages { get; set; }
 	public ICollection<ChatMessageReaction> ChatMessageReactions { get; set; }
 	public ICollection<BlogComment> BlogComments { get; set; }
 	public ICollection<BlogVisit> BlogVisits { get; set; }
-	public ICollection<Blog> Blogs { get; set; }
+	public ICollection<Blog.Blog> Blogs { get; set; }
 	public ICollection<CallSession>? Callers { get; set; }
 	public ICollection<CallSession>? Receivers { get; set; }
 	public ICollection<CallEvent> CallEvents { get; set; }

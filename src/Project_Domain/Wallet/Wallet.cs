@@ -1,6 +1,4 @@
-﻿using Project_Domain.User;
-
-namespace Project_Domain.Wallet;
+﻿namespace Project_Domain.Wallet;
 
 public class Wallet
 {
@@ -20,7 +18,7 @@ public class Wallet
 	#region Relations
 
 	public WalletType WalletType { get; set; }
-	public User User { get; set; }
+	public User.User User { get; set; }
 
 	#endregion
 }

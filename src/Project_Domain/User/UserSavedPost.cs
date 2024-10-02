@@ -1,6 +1,4 @@
-﻿using Project_Domain.Post;
-
-namespace Project_Domain.User;
+﻿namespace Project_Domain.User;
 
 public class UserSavedPost
 {
@@ -13,7 +11,7 @@ public class UserSavedPost
 	#region Relations
 
 	public User User { get; set; }
-	public Post Post { get; set; }
+	public Post.Post Post { get; set; }
 
 	#endregion
 }
