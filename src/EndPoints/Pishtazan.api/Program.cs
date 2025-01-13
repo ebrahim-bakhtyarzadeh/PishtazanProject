@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddDbContext<Project_Context>(option =>
+builder.Services.AddDbContext<Project_EFContext>(option =>
 {
     option.UseSqlServer("Data Source =.; Initial Catalog=Pishtazan_DB; Integrated security =true; TrustServerCertificate=true");
 });

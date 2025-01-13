@@ -7,9 +7,9 @@ using Project_Domain.Wallet;
 
 namespace Project_Infrastructure.Persistent.Ef
 {
-	public class Project_Context:DbContext
+	public class Project_EFContext:DbContext
      {
-          public Project_Context(DbContextOptions<Project_Context> option) : base(option)
+          public Project_EFContext(DbContextOptions<Project_EFContext> option) : base(option)
           {
      
           }

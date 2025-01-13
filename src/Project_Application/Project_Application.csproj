@@ -24,4 +24,9 @@
     <ProjectReference Include="..\Project_Infrastructure\Project_Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Queries\" />
+  </ItemGroup>
+
 </Project>

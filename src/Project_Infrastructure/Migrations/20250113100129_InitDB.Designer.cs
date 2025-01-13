@@ -11,7 +11,7 @@ using Project_Infrastructure.Persistent.Ef;
 
 namespace Project_Infrastructure.Migrations
 {
-    [DbContext(typeof(Project_Context))]
+    [DbContext(typeof(Project_EFContext))]
     [Migration("20250113100129_InitDB")]
     partial class InitDB
     {

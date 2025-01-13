@@ -10,7 +10,7 @@ using Project_Infrastructure.Persistent.Ef;
 
 namespace Project_Infrastructure.Migrations
 {
-    [DbContext(typeof(Project_Context))]
+    [DbContext(typeof(Project_EFContext))]
     partial class Project_ContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
