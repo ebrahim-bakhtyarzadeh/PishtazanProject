@@ -22,6 +22,7 @@ public class ChatMessage
 	public ICollection<ChatMessage> ChatMessages { get; set; }
 	public Chat Chat { get; set; }
 	public User.User User { get; set; }
+
 	public ICollection<ChatMessageReaction> ChatMessageReactions { get; set; }
 
 	#endregion

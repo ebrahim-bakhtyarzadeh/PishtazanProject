@@ -11,7 +11,7 @@ public class CoinType
 
 	#region Relations
 
-	public ICollection<Coin> Coins { get; set; }
+	public List<Coin> Coins { get; set; }
 
 	#endregion
 }

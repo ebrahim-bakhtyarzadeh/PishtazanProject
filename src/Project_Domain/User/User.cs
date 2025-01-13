@@ -62,7 +62,7 @@ public class User
 
 	#region Relations
 
-	public Gender Gender { get; set; }
+	public Gender Gender { get; set; }					
 	public ICollection<UserBlock>? UserBlocks { get; set; }
 	public ICollection<UserBlock>? BlockedUsers { get; set; }
 	public ICollection<UserFollower>? UserFollowers { get; set; }

@@ -1,0 +1,6 @@
+@Pishtazan.api_HostAddress = http://localhost:5189
+
+GET {{Pishtazan.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

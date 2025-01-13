@@ -1,4 +1,6 @@
-﻿namespace Project_Domain.Blog;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Project_Domain.Blog;
 
 public class BlogComment
 {

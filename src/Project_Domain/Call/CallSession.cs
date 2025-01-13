@@ -1,7 +1,9 @@
-﻿namespace Project_Domain.Call;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Project_Domain.Call;
 
 public class CallSession
-{
+{														  
 	public string CallSessionId { get; set; }
 	public string? CallerId { get; set; }
 	public string? ReceiverId { get; set; }
@@ -14,7 +16,9 @@ public class CallSession
 	#region Relations
 
 	public ICollection<CallEvent> CallEvents { get; set; }
+	[ForeignKey("CallerId")]
 	public User.User? Caller { get; set; }
+	[ForeignKey("ReceiverId")]
 	public User.User? Receiver { get; set; }
 
 	#endregion
